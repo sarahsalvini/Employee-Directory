@@ -1,9 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Jumbotron } from 'react-bootstrap';
 
 
-function Header() {
+
+function Jumbotron() {
     return (
         <Jumbotron>
       <h1>EMPLOYEE DIRECTORY</h1>
@@ -11,4 +11,4 @@ function Header() {
     );
   }
   
-  export default Header;
+  export default Jumbotron;
