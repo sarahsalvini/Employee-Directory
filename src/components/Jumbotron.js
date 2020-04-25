@@ -1,14 +1,14 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
+function Jumbotron(props) {
+	return (
+		<div
+			className="jumbotron text-center"
+			style={{ backgroundColor: props.backgroundColor }}
+		>
+			<h1>{props.text}</h1>
+		</div>
+	);
+}
 
-
-function Jumbotron() {
-    return (
-        <Jumbotron>
-      <h1>EMPLOYEE DIRECTORY</h1>
-        </Jumbotron>
-    );
-  }
-  
-  export default Jumbotron;
+export default Jumbotron;
